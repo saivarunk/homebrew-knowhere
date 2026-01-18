@@ -1,25 +1,25 @@
 class Knowhere < Formula
   desc "A lightweight SQL engine for querying CSV and Parquet files via TUI"
   homepage "https://github.com/saivarunk/knowhere"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/saivarunk/knowhere/releases/download/v0.1.0/knowhere-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "577839b721c9d2d80403e405f959d0175c1a3dcedb191c721fd202a0d2ab9204"
+      url "https://github.com/saivarunk/knowhere/releases/download/v0.1.1/knowhere-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e4d0b3d89934eaa3aae37c2574336a13c75f91183d6db695ee83117f98fd4a43"
     end
 
     on_intel do
-      url "https://github.com/saivarunk/knowhere/releases/download/v0.1.0/knowhere-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6875bc456e49aadd08869f46a50a1b6e7d4d25d378d0529647dfcb4eca24133e"
+      url "https://github.com/saivarunk/knowhere/releases/download/v0.1.1/knowhere-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "17864c31193620176b61245debf16dfef59fb0366c836e6271fc8a60d2f12c2a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/saivarunk/knowhere/releases/download/v0.1.0/knowhere-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3c9ab7d0cbfab6a90119ca29c10bded38d4d47d0a0c6ad1462b0bac79a012687"
+      url "https://github.com/saivarunk/knowhere/releases/download/v0.1.1/knowhere-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f3f4fdfbdc50e99eb46e024f8a4aac53cb0de7555181ebdbd389a0083fc2335a"
     end
   end
 
