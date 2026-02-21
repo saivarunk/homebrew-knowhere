@@ -1,8 +1,8 @@
 cask "knowhere" do
-  version "0.1.1"
-  sha256 "bb7aa995256f5267e5f895e8a39eb0fd422641a012d145f1a5a2d9c8f521a72c"
+  version "0.1.2"
+  sha256 "e3958632fc3ffe7a8ab73188d21f7128b3121ce5068d0e014c33b6436fe79762"
 
-  url "https://github.com/saivarunk/knowhere/releases/download/v0.1.1/Knowhere_0.1.1_universal.dmg"
+  url "https://github.com/saivarunk/knowhere/releases/download/v0.1.2/Knowhere_0.1.2_universal.dmg"
   name "Knowhere"
   desc "SQL engine for querying CSV, Parquet, Delta Lake files"
   homepage "https://github.com/saivarunk/knowhere"
